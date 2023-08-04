@@ -48,7 +48,7 @@ function criaLista(){
 
     for(let i=0;i <= (dadosLista.length-1);i++){
 
-        tabela += "<tr><td>" + dadosLista[i] + "</td><td><button class='btn btn-success' onclick='editar(this.parentNode.parentNode.rowIndex)'>Editar</button><button class='btn btn-danger' onclick=''>Excluir</button></td></tr>";
+        tabela += "<tr><td>" + dadosLista[i] + "</td><td><button class='btn btn-success' onclick='editar(this.parentNode.parentNode.rowIndex)'>Editar</button><button class='btn btn-danger' onclick='excluir(this.parentNode.parentNode.rowIndex)'>Excluir</button></td></tr>";
 
         document.getElementById("tabela").innerHTML = tabela;
 
@@ -64,6 +64,6 @@ function editar(i){
 
 // FUNÇÃO PARA EXCLUIR NOME
 function excluir(i){
-    dadosLista.splice[(i - 1), 1];
+    dadosLista.splice((i - 1), 1);
     document.getElementById('tabela').deleteRow(i);
 }
