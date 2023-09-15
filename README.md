@@ -23,7 +23,7 @@ Ambas do segundo ano A
 
 ## Descrição:
 
-    É um site criado para armazenar tarefas do cotidiano, basicamente se comportando como uma lista de tarefas virtual.
+É um site criado para armazenar tarefas do cotidiano, basicamente se comportando como uma lista de tarefas virtual.
 
 ## Introdução:
 
@@ -46,21 +46,24 @@ O site intituludado de Instarefas tem o objectivo de armazenar tarefas do dia a 
 ## Tecnológias Utilizadas:
 
  As tecnólogias utilizadas para a criação foram..
-    HTML      
+
+HTML    
+  
     <img src="_img/html.png" width="30%">
 
-    CSS
-   <img src="_img/css.png" width="30%">
+CSS
 
-   GitHub
+<img src="_img/css.png" width="30%">
+
+GitHub
 
    <img src="_img/github.png" width="30%">
 
-   Visual Studio Code
+Visual Studio Code
 
    <img src="_img/vscode.png" width="30%">
 
-   JavaScript
+JavaScript
 
    <img src="_img/javascript.png" width="30%">
 
